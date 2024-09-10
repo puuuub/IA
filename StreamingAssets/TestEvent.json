@@ -1,0 +1,17 @@
+{
+  "deviceId": "ICN1D002DG01",
+  "deviceName": "셀프디파쳐게이트",
+  "deviceType": "DPG",
+  "deviceTypeVersion": "",
+  "organizationId": 172,
+  "organizationName": "2번출구",
+  "organizationCodeL2": "T1",
+  "organizationCodeL3": "DEP",
+  "organizationCodeL4": "2",
+  "eventTag": "TAG_ABNORMAL_TERMINATION",
+  "eventType": "RULE_EVENT",
+  "value": true,
+  "valueType": "BOOLEAN",
+  "timeCreated": "2024-06-14T09:15:19.271"
+
+}

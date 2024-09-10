@@ -1,0 +1,47 @@
+[
+  {
+    "eventType": "TAG_ACTIVE",
+    "eventTypeKor": "단말기상태"
+  },
+  {
+    "eventType": "TAG_FACE",
+    "eventTypeKor": "안면 인식기"
+  },
+  {
+    "eventType": "TAG_PSPRT",
+    "eventTypeKor": "여권 판독기"
+  },
+  {
+    "eventType": "TAG_BD",
+    "eventTypeKor": "탑승권 리더기"
+  },
+  {
+    "eventType": "TAG_CPU",
+    "eventTypeKor": "CPU"
+  },
+  {
+    "eventType": "TAG_MEM",
+    "eventTypeKor": "MEMORY"
+  },
+  {
+    "eventType": "TAG_OPMODE",
+    "eventTypeKor": "운영모드"
+  },
+  {
+    "eventType": "TAG_DOOR",
+    "eventTypeKor": "도어상태"
+  },
+  {
+    "eventType": "TAG_DOORCOUNT",
+    "eventTypeKor": "도어누적개폐횟수"
+  },
+  {
+    "eventType": "TAG_SENSOR",
+    "eventTypeKor": "게이트 센서"
+  },
+  {
+    "eventType": "TAG_ABNORMAL_TERMINATION",
+    "eventTypeKor": "비정상 종료"
+  }
+
+]

@@ -1,0 +1,150 @@
+{
+  "API": [
+    {
+      "index": "0",
+      //"address": "alian2016.iptime.org",
+      "address": "https://211.217.241.196:50443",
+      "desc": "Base api접속주소"
+    },
+    {
+      "index": "1",
+      "address": "/api/captcha",
+      "desc": ""
+    },
+    {
+      "index": "2",
+      "address": "/api/login",
+      "desc": ""
+    },
+    {
+      "index": "3",
+      "address": "/api/token",
+      "desc": ""
+    },
+    {
+      "index": "4",
+      "address": "/api/account/levels",
+      "desc": ""
+    },
+    {
+      "index": "5",
+      "address": "/api/account/",
+      "desc": "/api/account/{userId}"
+    },
+    {
+      "index": "6",
+      "address": "/api/account/",
+      "desc": "/api/account/{userId}/myinfo"
+    },
+    {
+      "index": "7",
+      "address": "/api/organization//childhierarchy",
+      "desc": "/api/organization/{organizationId}/childhierarchy"
+    },
+    {
+      "index": "8",
+      "address": "/api/organization/",
+      "desc": "/api/organization/{orgId}"
+    },
+    {
+      "index": "9",
+      "address": "/api/organization//users",
+      "desc": "/api/organization/{orgId}/users"
+    },
+    {
+      "index": "10",
+      "address": "/api/device",
+      "desc": ""
+    },
+    {
+      "index": "11",
+      "address": "/api/device/listwithresources?page=0&size=300&organizationId=1655&includeSubOrg=true&sort=asc",
+      "desc": ""
+    },
+    {
+      "index": "12",
+      "address": "/api/device/",
+      "desc": "/api/device/{deviceId}"
+    },
+    {
+      "index": "13",
+      "address": "/api/eventrecord/device",
+      "desc": ""
+    },
+    {
+      "index": "14",
+      "address": "/api/eventrecord/device//list",
+      "desc": "/api/eventrecord/device/{deviceId}/list"
+    },
+    {
+      "index": "15",
+      "address": "/api/deviceutil/place/stats/",
+      "desc": "/api/deviceutil/place/stats/{orgId}"
+    },
+    {
+      "index": "16",
+      "address": "/api/device/list/place/",
+      "desc": "/api/device/list/place/{orgId}"
+    },
+    {
+      "index": "17",
+      "address": "/api/datarecord/latest",
+      "desc": ""
+    },
+    {
+      "index": "18",
+      "address": "/api/datarecord/latest",
+      "desc": "/api/datarecord/{deviceId}/latest"
+    },
+    {
+      "index": "19",
+      "address": "/api/datarecord/history",
+      "desc": "/api/datarecord/{deviceId}/history"
+    },
+    {
+      "index": "20",
+      "address": "/api/dts/event/stat",
+      "desc": "/api/dts/event/{deviceId}/stat"
+    },
+    {
+      "index": "21",
+      "address": "/api/dts/event",
+      "desc": "/api/dts/event/{deviceType}/top"
+    },
+    {
+      "index": "22",
+      "address": "/api/dts/device/history",
+      "desc": "/api/dts/device/{deviceId}/history"
+    },
+    {
+      "index": "23",
+      "address": "/api/dts/event/placestat",
+      "desc": "/api/dts/event/{organizationCodeL2}/placestat"
+    },
+    {
+      "index": "24",
+      "address": "/api/dts/device/infolist",
+      "desc": "/api/dts/device/infolist?deviceId=ICNSP2TDBDG1&deviceStatus=offline&organizationId=170&size=1&sort=DESC&sortCol=TS_CPU&subPropnum1=0&subPropnum2=0&subPropstr1=E&versionType=V2&rsrcTsActive=1&deviceTag=BDG"
+    },
+    {
+      "index": "25",
+      "address": "/api/dts/device/prevent/count",
+      "desc": "/api/dts/device/prevent/count?organizationCodeL2=T1&range1=0&range2=500000&range3=800000&range4=1000000"
+    },
+    {
+      "index": "26",
+      "address": "/api/lwm2m/",
+      "desc": "쓰기 put 도어 열림/닫힘 /api/lwm2m/{deviceId}/{objectId}/{instanceId}/{resourceId}"
+    },
+    {
+      "index": "27",
+      "address": "/api/lwm2m/",
+      "desc": "실행 post 종료{38003/0/22}/재시작 고정{3/0/4} /api/lwm2m/{deviceId}/{objectId}/{instanceId}/{resourceId}"
+    },
+    {
+      "index": "28",
+      "address": "/api/device/",
+      "desc": "시작명령 post 시작 /api/device/{deviceId}/poweron"
+    }
+  ]
+}

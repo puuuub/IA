@@ -1,0 +1,22 @@
+MESSAGE
+destination:/topic/event/rule
+content-type:text/plain;charset=UTF-8
+subscription:sub-0
+message-id:0697eb46-d249-0e39-c493-cc4626d6dc7f-42
+content-length:413
+
+{"timeCreated":"2024-07-19T10:39:30.002",
+"deviceId":"ICN1G021BG01",
+"deviceName":"¼¿ÇÁº¸µù°ÔÀÌÆ®",
+"eventTag":"TAG_DOORCOUNT",
+"eventType":"RULE_EVENT_BACKTONORMAL",
+"value":"600000",
+"valueType":"INTEGER",
+"deviceType":"SBG",
+"deviceTypeVersion":"",
+"organizationId":626,
+"organizationName":"Å¾½Â±¸21",
+"organizationCodeL2":"T1",
+"organizationCodeL3":"DEP",
+"organizationCodeL4":"2",
+"condition":"600000 >= 800000"}
