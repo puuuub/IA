@@ -2,8 +2,7 @@
   "API": [
     {
       "index": "0",
-      //"address": "alian2016.iptime.org",
-      "address": "https://211.217.241.196:50443",
+      "address": "",
       "desc": "Base api접속주소"
     },
     {
